@@ -1,14 +1,15 @@
 ```py
 
+# importing libraries
 import pandas as pd
-# Load sales1 dataset
-sales1 = pd.read_excel('sales1.xlsx')
+# Load data1 dataset
+data1 = pd.read_excel('P L March 2021_1.xlsx')
 
-# Load sales2 dataset
-sales2 = pd.read_excel('sales2.xlsx')
-sales1.head()
-sales1.describe()
-sales2.head()
-sales2.describe()
+# Load data2 dataset
+data2 = pd.read_excel('P L March 2021_2.xlsx')
+data1.head()
+data1.describe()
+data2.head()
+data2.describe()
 
 ```
